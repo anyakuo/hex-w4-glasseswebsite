@@ -1,0 +1,12 @@
+@include pc () {
+    
+  };
+
+  @include ipad () {
+    .fs-md-3 {
+        font-size: 36px !important;
+    }
+    .fs-md-6 {
+        font-size: 14px;
+    }
+  }

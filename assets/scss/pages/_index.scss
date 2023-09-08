@@ -1,0 +1,67 @@
+.bg-homeheadersm {
+  background-image: url(/assets/images/home-header-sm.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.py-144 {
+  padding-top: 144px;
+  padding-bottom: 144px;
+}
+/**服務介紹**/
+.serviceintro img {
+  max-width: 84px;
+}
+/**經典系列鏡框**/
+.classical img {
+  max-width: 100%;
+}
+/**聯名設計鏡框**/
+.bg-indexbgsm {
+  background-image: url(/assets/images/index-bg-sm.png);
+  background-size: cover;
+  background-position: top;
+}
+.design img {
+  max-width: 100%;
+}
+/**顧客推薦**/
+.recommed img {
+  width: 100%;
+}
+.h-205 {
+  height: 205px;
+}
+/**聯絡我們**/
+
+@include ipad () {
+    .py-md-296 {
+      padding-top: 296px;
+      padding-bottom: 296px;
+    }
+    .fs-md-3 {
+      font-size: 36px;
+    }
+    .fs-md-1 {
+      font-size: 64px !important;
+    }
+    .fs-md-2 {
+      font-size: 48px !important;
+    }
+    .py-md-80 {
+      padding-top: 80px;
+      padding-bottom: 80px;
+    }
+    .bg-indexbgsm {
+      background-image: url(/assets/images/index-bg-md.png);
+    }
+};
+
+@include pc () {
+  .bg-homeheadersm {
+    background-image: url(/assets/images/home-header.png);
+  }
+  .bg-indexbgsm {
+    background-image: url(/assets/images/index-bg.png);
+  }
+};

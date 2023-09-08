@@ -1,0 +1,14 @@
+@include ipad () {
+    .fs-md-4 {
+        font-size: 20px;
+    }
+    .border {
+        border: none !important;
+    }
+}
+
+@include pc () {
+    .fs-lg-20 {
+        font-size: 20px;
+    }
+  };

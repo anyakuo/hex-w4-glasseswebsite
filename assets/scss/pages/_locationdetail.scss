@@ -1,0 +1,17 @@
+@include ipad () {
+    .fs-md-2 {
+        font-size: 48px;
+    }
+    .fs-md-4 {
+        font-size: 24px;
+    }
+    .border-md {
+        border: 1px solid #00000020 !important; 
+    }
+  };
+
+  @include pc () {
+    .mt-lg-96 {
+        margin-top: 96px !important;
+    }
+  }
